@@ -1,0 +1,157 @@
+.container-xxl {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  
+  
+}
+.container2 {
+  display: flex;
+  background-color: rgb(68, 83, 102);
+  margin: 20px 0px;
+}
+.container2 > div {
+  background-color: rgb(68, 83, 102);
+  width: 75vw;
+  margin: 0px;
+  text-align: left;
+  
+}
+.item-right2 {
+  background-color: #293682;
+  padding: 0px;
+  flex: 100%;
+}
+
+.container1 {
+  display: flex;
+  margin-top: 20px;
+  margin-left: -10px;
+}
+.container1 > div {
+  color: white;
+  width: auto;
+  margin: 40px;
+  text-align: center;
+  margin-top: 30px;
+  
+}
+h2 {
+  color: #ffca08;
+}
+p {
+  color: #f1f1f1;
+}
+a {
+  padding: 20px 20px;
+  color: #f1f1f1;
+  border: thin solid white;
+  border-radius: 5px;
+  margin: 0px 10px;
+}
+input {
+  padding: 20px 20px;
+}
+.submit {
+  background-color: #ffca08;
+  color: black;
+  padding: 20px;
+  border-radius: 20px;
+}
+.container1 :hover {
+  background-color: #ffca08;
+  text-decoration: none;
+  transition: all 2s ease 0s;
+  color: aqua;
+  translate: x;
+}
+.col-4 {
+  text-align: left;
+  padding: 20px;
+}
+.row {
+  margin-top: 20px;
+  margin-left: -20px;
+}
+.card {
+  height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+img {
+  height: 150px;
+}
+#more {
+  display: none;
+}
+#myBtn {
+  padding: 20px;
+  background-color: #ffca08;
+  border-radius: 20px;
+}
+
+.card-img-overlay{
+  padding-top: 45%;
+}
+button {
+  margin: 0px 45% 0px 45%;
+}
+
+@media screen and (max-width: 800px) {
+  .item234 {
+    width: 75vw;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .item233 {
+    width: 75vw;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .item232 {
+    width: 75vw;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .container2 {
+    text-align: center;
+    
+  }
+  .item-right2 {
+    width: 75vw;
+  }
+  .container1 {
+    flex-direction: column;
+    display: flex;
+    width: 75vw;
+    margin-top: 10px;
+  }
+  .container2 > div {
+    margin: 0px;
+    width: 75vw;
+  }
+  a {
+    margin: 5px;
+    color: aqua;
+  }
+  .row {
+    flex-direction: column;
+    text-align: center;   
+  }
+  button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+  .col-4{
+    width: 82vw;
+  }
+  p  {
+    color: rgb(227, 239, 239);
+    text-shadow: #f1f1f1;
+    
+   
+  }
+  img {
+    height: 100px;
+  }
+}

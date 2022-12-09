@@ -1,0 +1,156 @@
+.container2 {
+  display: flex;
+  background-color: rgb(68, 83, 102);
+  margin: 20px 0px;
+}
+.container2 > div {
+  background-color: rgb(68, 83, 102);
+  color: white;
+  width: auto;
+  margin: 0px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.item-left2 {
+  background-color: #f1f1f1;
+  padding: 0px;
+  flex: 100%;
+}
+.item-right2 {
+  background-color: #293682;
+  padding: 0px;
+  flex: 100%;
+}
+@media (max-width: 200px) {
+  .container2 {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.container3 {
+  display: flex;
+  background-color: #f1f1f1;
+}
+.container3 > div {
+  background-color: rgb(68, 83, 102);
+  color: white;
+  width: auto;
+  padding-left: 40px;
+  text-align: left;
+  line-height: 75px;
+  color: black;
+}
+.item-left3 {
+  background-color: #f1f1f1;
+  padding: 0px;
+  flex: 100%;
+}
+.item-right3 {
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+  flex: 100%;
+  color: black;
+}
+@media (max-width: 800px) {
+  .container3 {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.item1001 {
+  color: #ffca08;
+  padding-top: 40px;
+  align-items: center;
+  text-align: center;
+}
+.item1002 {
+  color: white;
+  font-size: 64px;
+  align-items: center;
+  text-align: center;
+}
+.item1003 {
+  color: white;
+  font-size: 16px;
+  align-items: center;
+  text-align: center;
+}
+.item1004 {
+  height: 2.4375em;
+  width: 96.5%;
+  font-size: 16px;
+  background-color: #ffca08;
+  align-items: center;
+  text-align: center;
+}
+.itemcourseserch {
+  margin-top: -12px;
+  padding-left: 8px;
+  width: 100%;
+  align-items: center;
+}
+
+@media screen and (max-width: 970px) {
+  .submit {
+    width: 33.3vw;
+  }
+  .item1001 {
+    font-size: smaller;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .item1002 {
+    font-size: smaller;
+  }
+  .item1003 {
+    padding-top: 20px;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .item1004 {
+    height: 2.4375em;
+    width: 50vw;
+    font-size: 12px;
+    background-color: #ffca08;
+  }
+  .itemcourseserch {
+    margin-top: -12px;
+    padding-left: 8px;
+    width: 25%;
+  }
+  .state {
+    width: 25vw;
+    margin-right: 10px;
+    /* text-align: center; */
+    /* align-items: center; */
+  }
+
+  .form-select {
+    width: 25vw;
+    /* margin-right: 10px; */
+    text-align: center;
+    align-items: center;
+    margin-left: 32vw;
+  }
+  .sdffssdfsd {
+    width: 30vw;
+    display: -ms-inline-flexbox;
+    flex-direction: inherit;
+    align-items: center;
+    text-align: center;
+  }
+  .item-right3 {
+    padding-top: 30px;
+  }
+  .divinput{
+    display: block;
+    align-items: center;
+    text-align: center;
+
+  }
+}

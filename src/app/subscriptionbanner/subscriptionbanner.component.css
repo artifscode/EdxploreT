@@ -1,0 +1,119 @@
+.wrapper {
+    display: flex;
+    margin: 0px auto;
+    align-items: center;
+    text-align: center;
+    background-color: #ffca08;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+  }
+  .item3242 {
+    text-align: left;
+  }
+  
+  .col {
+    padding: 10px;
+    align-items: center;
+  }
+  
+  .item2311 {
+    width: 65px;
+    background-color: #ffca08;
+    padding: 5px;
+    border-radius: 50px;
+  }
+  
+  .item2311 > img {
+    size: 40px;
+  }
+  
+  img {
+    width: 400px;
+  }
+  
+  .row-job {
+    border: thin solid black;
+    border-radius: 5px;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: left;
+    background-color: rgb(68, 83, 102);
+    color: white;
+    height: 120px;
+    width: 390px;
+    padding: 20px 20px;
+  }
+  .row-multiple {
+    border: thin solid black;
+    border-radius: 5px;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: left;
+    background-color: rgb(68, 83, 102);
+    color: white;
+    height: 120px;
+    width: 390px;
+    padding: 20px 20px;
+  }
+  .row-learn {
+    border: thin solid black;
+    border-radius: 5px;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: left;
+    background-color: rgb(68, 83, 102);
+    color: white;
+    height: 120px;
+    width: 390px;
+    padding: 20px 20px;
+  }
+  .row-easy {
+    border: thin solid black;
+    border-radius: 5px;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: left;
+    background-color: rgb(68, 83, 102);
+    color: white;
+    height: 120px;
+    width: 390px;
+    padding: 20px 20px;
+  }
+  .col-11 {
+    padding-left: 20px;
+  }
+  .item2222 {
+    width: 300px;
+  }
+  
+  .item4444{
+    text-align: right;
+    
+  }
+  .subscribe{
+
+    padding-top: 50px;
+
+  }
+
+  @media screen and (max-width: 800px) {
+
+    .container,
+    .item4444,
+    .col-6,
+    img
+    {
+      /* display: block; */
+      /* flex-direction: column; */
+      width: 100%;
+
+
+    }
+
+
+  }

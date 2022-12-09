@@ -1,0 +1,97 @@
+.MultiCarousel {
+  float: left;
+  overflow: hidden;
+  padding: 15px;
+  width: 100%;
+  position: relative;
+}
+.MultiCarousel .MultiCarousel-inner {
+  transition: 1s ease all;
+  float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item {
+  float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item > div {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background: #ffffff;
+  color: #666;
+  margin-left: 17px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.MultiCarousel .leftLst,
+.MultiCarousel .rightLst {
+  position: absolute;
+  border-radius: 50%;
+  top: calc(50% - 20px);
+}
+.MultiCarousel .leftLst {
+  left: 0;
+}
+.MultiCarousel .rightLst {
+  right: 0;
+}
+.MultiCarousel .leftLst.over,
+.MultiCarousel .rightLst.over {
+  pointer-events: none;
+  background: #ccc;
+}
+.card-title {
+  text-align: left;
+  height: 25px;
+  left: 458px;
+  top: 1158px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #293682;
+}
+.card-text {
+  text-align: left;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #667085;
+}
+
+.col-10 {
+  text-align: left;
+}
+.row {
+  padding: 0px 5px 0px 5px;
+}
+.card a {
+  margin-top: 26px;
+  margin-left: -6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  padding: 10px 74px;
+  gap: 10px;
+  width: 220px;
+  height: 39px;
+  background: #293682;
+  border-radius: 5px;
+}
+a {
+  width: 82px;
+  height: 19px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #f8f2f2;
+}
+.card-img-top {
+  width: 248.5px;
+  margin-left: -10.5px;
+  margin-top: -10px;
+}

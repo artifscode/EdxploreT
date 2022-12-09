@@ -1,0 +1,28 @@
+img {
+  width: 750px;
+  height: 550px;
+  
+ 
+}
+
+#myCarousel {
+  background-color: rgb(68, 83, 102);
+  box-shadow: rgb(68, 83, 102);
+}
+
+#carousel-control {
+  background-color: rgb(68, 83, 102);
+}
+.carousel-indicators {
+  position: absolute;
+  left: -7%;
+}
+
+@media screen and (max-width: 970px) {
+  .carousel-indicators {
+    display: block;
+    position: absolute;
+    left: 50%;
+  }
+
+}
